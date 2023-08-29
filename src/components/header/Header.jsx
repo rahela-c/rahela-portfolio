@@ -1,6 +1,6 @@
 import React from "react";
-import Burger from "./burger/Burger";
-import Menu from "./menu/Menu";
+import Burger from "./Burger";
+import Menu from "./Menu";
 import "./Header.css";
 
 function Header() {
