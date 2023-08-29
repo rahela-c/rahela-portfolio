@@ -1,20 +1,8 @@
 import { Icon } from "@iconify/react";
-import { useState } from "react";
 
-export default function Burger() {
-  // Where is const?
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  // What is this? you are not returning anything, plus you have a React Component and a function together
-  const openMenu = () => {
-    // <Menu />;
-    // setIsMenuOpen(!isMenuOpen);
-
-    console.log("hi");
-  };
-
+export default function Burger({ onClick }) {
   return (
-    <div className="burger" onClick={openMenu}>
+    <div className="burger" onClick={onClick}>
       <Icon
         icon="iconamoon:menu-burger-horizontal-bold"
         color="white"
