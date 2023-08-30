@@ -15,7 +15,7 @@ function Header() {
       <div className="container">
         <div className="logo">{"<RC />"}</div>
         <div className="auto"></div>
-        <Burger onClick={openMenu} />
+        <Burger onClick={openMenu} isMenuOpen={isMenuOpen} />
       </div>
 
       <Menu isMenuOpen={isMenuOpen} />
