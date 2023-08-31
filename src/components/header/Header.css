@@ -39,6 +39,10 @@
   display: flex;
   flex-flow: column;
   color: white;
+
+  position: absolute;
+  width: 100%;
+  left: 0;
 }
 
 .menu li {
