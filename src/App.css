@@ -5,4 +5,7 @@
 
 html {
   background-color: #030712;
+  /* Use the font family you just imported from Google Fonts in the HTML */
+  /* In this case, "Inter" - i've only added Courier and monospace as backup, they are already present on your computer. In case Google Fonts fails to load Inter. */
+  font-family: "Inter", Courier, monospace;
 }
