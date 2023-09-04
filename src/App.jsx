@@ -4,6 +4,7 @@ import Footer from "./components/footer/Footer";
 import Contact from "./components/contact"; // no need for /index - because  it's named index.jsx VsCode knows
 import Hero from "./components/hero/";
 import Skills from "./components/skills";
+import Work from "./components/work";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Skills />
+      <Work />
       <Contact />
       <Footer />
     </div>
