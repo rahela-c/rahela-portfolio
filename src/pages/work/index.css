@@ -16,16 +16,6 @@
   align-self: stretch;
 }
 
-.subHeadingContent {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-self: stretch;
-  padding-bottom: 24px;
-}
-
 .projectImage {
   display: flex;
   padding: 32px;
