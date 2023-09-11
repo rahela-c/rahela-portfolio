@@ -1,14 +1,14 @@
 import SkillsIcons from "./SkillsIcons";
-import SkillsSubHeading from "./SkillsSubHeading";
 import "./index.css";
 import Heading from "../../components/Heading";
+import Subheading from "../../components/Subheading";
 
 export default function Skills() {
   return (
     <div className="skills">
       <div className="skillsContainers">
         <Heading title="Skills" />
-        <SkillsSubHeading />
+        <Subheading text="The skills, tools and technologies I am really good at:" />
         <SkillsIcons />
       </div>
     </div>
