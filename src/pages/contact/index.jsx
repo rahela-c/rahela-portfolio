@@ -1,4 +1,5 @@
-import Action from "./Action";
+import Heading from "../../components/Heading";
+
 import Details from "./Details";
 import Socials from "./Socials";
 import "./index.css";
@@ -7,7 +8,12 @@ export default function Contact() {
   return (
     <div className="contactMe">
       <div className="contactContainer">
-        <Action />
+        <Heading title="Get in touch" />
+
+        <div style={{ textAlign: "center" }}>
+          What’s next? Feel free to reach out to me if you're looking for a
+          developer, have a query, or simply want to connect.
+        </div>
         <Details />
         <Socials />
       </div>
