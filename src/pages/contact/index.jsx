@@ -1,4 +1,5 @@
 import Heading from "../../components/Heading";
+import Subheading from "../../components/Subheading";
 
 import Details from "./Details";
 import Socials from "./Socials";
@@ -9,11 +10,10 @@ export default function Contact() {
     <div className="contactMe">
       <div className="contactContainer">
         <Heading title="Get in touch" />
-
-        <div style={{ textAlign: "center" }}>
-          What’s next? Feel free to reach out to me if you're looking for a
-          developer, have a query, or simply want to connect.
-        </div>
+        <Subheading
+          text="What’s next? Feel free to reach out to me if you're looking for a
+          developer, have a query, or simply want to connect."
+        />
         <Details />
         <Socials />
       </div>
