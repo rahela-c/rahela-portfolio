@@ -7,6 +7,7 @@ export default function Projects() {
       {PROJECTS.map(({ title, description, image, technologies }) => {
         return (
           <Project
+            key={title}
             title={title}
             description={description}
             image={image}
