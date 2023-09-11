@@ -8,6 +8,10 @@
   align-self: stretch;
 }
 
+.contactMe .headingButtonContainer {
+  padding-bottom: 0;
+}
+
 .contactContainer {
   display: flex;
   flex-direction: column;
