@@ -23,7 +23,8 @@
 }
 
 .ImageBackGround {
-  border: 8px solid #030712;
+  position: relative;
+  /* border: 8px solid #030712; */
   background: #374151;
   width: 280px;
   height: 280px;
@@ -31,11 +32,13 @@
 }
 
 .heroPhoto {
+  position: absolute;
+  bottom:12px;
   display: flex;
   margin-left: 12px;
 
   width: 240px;
-  height: 240px;
+  height: 280px;
   flex-shrink: 0;
   border: 8px solid #030712;
   background: lightgray 50% / cover no-repeat;
