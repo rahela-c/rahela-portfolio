@@ -1,4 +1,4 @@
-import rahela from "../hero/rahela.jpg";
+import rahela from "./rahela.jpg";
 
 export default function HeroImage() {
   return (

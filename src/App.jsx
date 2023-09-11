@@ -1,10 +1,10 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Contact from "./components/contact"; // no need for /index - because  it's named index.jsx VsCode knows
-import Hero from "./components/hero/";
-import Skills from "./components/skills";
-import Work from "./components/work";
+import Contact from "./pages/contact"; // no need for /index - because  it's named index.jsx VsCode knows
+import Hero from "./pages/hero/";
+import Skills from "./pages/skills";
+import Work from "./pages/work";
 
 function App() {
   return (
