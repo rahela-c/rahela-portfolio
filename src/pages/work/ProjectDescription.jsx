@@ -11,9 +11,6 @@ export default function ProjectDescription({
       <h3>{title}</h3>
       <div className="textProject">{description}</div>
       <Buttons technologies={technologies} />
-      <div className="iconProject">
-        <Icon icon="pajamas:external-link" />
-      </div>
     </div>
   );
 }

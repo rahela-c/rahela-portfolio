@@ -21,7 +21,7 @@ function Header() {
 
       <div className="menu" style={{ display: isMenuOpen ? "flex" : "none" }}>
         <Links closeMenu={() => setIsMenuOpen(false)} />
-        <SwitchTheme />
+        {/* <SwitchTheme /> */}
       </div>
     </div>
   );
