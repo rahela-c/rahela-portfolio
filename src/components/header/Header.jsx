@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Burger from "./Burger";
-import Menu from "./Menu";
+import SwitchTheme from "./SwitchTheme";
+import Links from "./Links";
 import "./Header.css";
 
 function Header() {
@@ -18,7 +19,10 @@ function Header() {
         <Burger onClick={openMenu} isMenuOpen={isMenuOpen} />
       </div>
 
-      <Menu isMenuOpen={isMenuOpen} />
+      <div className="menu" style={{ display: isMenuOpen ? "flex" : "none" }}>
+        <Links closeMenu={() => setIsMenuOpen(false)} />
+        <SwitchTheme />
+      </div>
     </div>
   );
 }

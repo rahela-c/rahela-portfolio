@@ -5,7 +5,7 @@ import Subheading from "../../components/Subheading";
 
 export default function Skills() {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <div className="skillsContainers">
         <Heading title="Skills" />
         <Subheading text="The skills, tools and technologies I am really good at:" />

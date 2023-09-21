@@ -1,10 +1,40 @@
-export default function Links() {
+import { scrollToPage } from "../../methods";
+
+export default function Links({ closeMenu }) {
   return (
     <div className="links">
-      <div> About</div>
-      <div> Work</div>
-      <div>Testimonials</div>
-      <div>Contact</div>
+      <div
+        onClick={() => {
+          scrollToPage("#about");
+          closeMenu();
+        }}
+      >
+        About
+      </div>
+      <div
+        onClick={() => {
+          scrollToPage("#work");
+          closeMenu();
+        }}
+      >
+        Work
+      </div>
+      <div
+        onClick={() => {
+          scrollToPage("#skills");
+          closeMenu();
+        }}
+      >
+        Skills
+      </div>
+      <div
+        onClick={() => {
+          scrollToPage("#contact");
+          closeMenu();
+        }}
+      >
+        Contact
+      </div>
     </div>
   );
 }

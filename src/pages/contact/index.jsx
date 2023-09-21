@@ -7,7 +7,7 @@ import "./index.css";
 
 export default function Contact() {
   return (
-    <div className="contactMe">
+    <div id="contact" className="contactMe">
       <div className="contactContainer">
         <Heading title="Get in touch" />
         <Subheading

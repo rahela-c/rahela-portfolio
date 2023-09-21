@@ -5,7 +5,7 @@ import Subheading from "../../components/Subheading";
 
 export default function Work() {
   return (
-    <div className="work">
+    <div id="work" className="work">
       <div className="workContainer">
         <Heading title="Work" />
         <Subheading text="Some of the noteworthy projects I have built:" />

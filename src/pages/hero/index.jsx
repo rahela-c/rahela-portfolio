@@ -6,7 +6,7 @@ import "./index.css";
 
 export default function Hero() {
   return (
-    <div className="hero">
+    <div id="about" className="hero">
       <div className="heroContainer">
         <HeroImage />
         <div className="columnDescription">
