@@ -5,6 +5,7 @@ import Contact from "./pages/contact"; // no need for /index - because  it's nam
 import Hero from "./pages/hero/";
 import Skills from "./pages/skills";
 import Work from "./pages/work";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Work />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }
