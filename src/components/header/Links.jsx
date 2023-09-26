@@ -5,7 +5,7 @@ export default function Links({ closeMenu }) {
     <div className="links">
       <div
         onClick={() => {
-          scrollToPage("#about");
+          scrollToPage("#hero");
           closeMenu();
         }}
       >
