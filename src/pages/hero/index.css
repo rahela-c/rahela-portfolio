@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   align-self: stretch;
+  justify-content: flex-end;
 }
 
 .ImageBackGround {
@@ -85,4 +86,18 @@
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
+}
+
+@media screen and (min-width: 1024px) {
+  .content h1 {
+    font-size: 60px;
+  }
+
+  .hero {
+    padding: 96px 80px;
+  }
+
+  .heroContainer {
+    flex-direction: row;
+  }
 }

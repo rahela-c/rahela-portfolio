@@ -1,6 +1,6 @@
 .subheading {
-  max-width: 576px;
-  align-self: stretch;
-  text-align: center;
+  width: 100%;
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
 }

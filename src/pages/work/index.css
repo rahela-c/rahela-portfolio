@@ -85,3 +85,18 @@ h3 {
   gap: 24px;
   align-self: stretch;
 }
+
+@media screen and (min-width: 1024px) {
+  .projectWork {
+    display: flex;
+  }
+  .projectImage {
+    border-radius: 12px 0px 0px 12px;
+  }
+  .projectDescription {
+    border-radius: 0px 12px 12px 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}

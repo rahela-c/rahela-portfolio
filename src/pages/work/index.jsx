@@ -8,7 +8,9 @@ export default function Work() {
     <div id="work" className="work">
       <div className="workContainer">
         <Heading title="Work" />
+
         <Subheading text="Some of the noteworthy projects I have built:" />
+
         <Projects />
       </div>
     </div>
