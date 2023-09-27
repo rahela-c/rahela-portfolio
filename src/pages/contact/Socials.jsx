@@ -13,6 +13,7 @@ export default function Socials() {
           icon="teenyicons:github-outline"
           width="24"
           height="24"
+          style={{ cursor: "pointer" }}
         />
         {/* <Icon icon="lucide:twitter" width="24" height="24" />
         <Icon icon="ph:figma-logo-light" width="24" height="24" /> */}

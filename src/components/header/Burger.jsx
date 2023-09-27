@@ -8,10 +8,8 @@ export default function Burger({ onClick, isMenuOpen }) {
         color="white"
         width="24"
         height="24"
+        style={{ cursor: "pointer" }}
       />
     </div>
   );
 }
-
-("codicon:close");
-("pajamas:hamburger");

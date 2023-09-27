@@ -15,6 +15,7 @@ export default function Details() {
           icon="radix-icons:copy"
           width="24"
           height="24"
+          style={{ cursor: "pointer" }}
         />
       </div>
     </div>
