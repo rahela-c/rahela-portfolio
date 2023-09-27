@@ -16,8 +16,7 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 120% */
-  letter-spacing: -0.6px;
+  min-width: 102px;
 }
 
 .auto {
@@ -60,6 +59,9 @@
   align-self: stretch;
   border-bottom: 1px solid #1f2937;
 }
+.links div {
+  cursor: pointer;
+}
 
 .actions {
   padding: 16px;
@@ -93,4 +95,16 @@
   background: transparent;
   outline: 0;
   border: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .links {
+    width: 100%;
+    gap: 43px;
+    display: flex;
+    flex-flow: row;
+    padding: 12px;
+    justify-content: flex-end;
+    border-bottom: unset;
+  }
 }
