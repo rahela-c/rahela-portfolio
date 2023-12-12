@@ -26,7 +26,11 @@ function Header() {
       </div>
 
       {!isDesktop && (
-        <div className="menu" style={{ display: isMenuOpen ? "flex" : "none" }}>
+        <div
+          className="menu"
+          style={{ display: isMenuOpen ? "flex" : "none" }}
+          onBlur={() => console.log("blurred")}
+        >
           <Links closeMenu={() => setIsMenuOpen(false)} />
           {/* <SwitchTheme /> */}
         </div>
