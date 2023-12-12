@@ -26,6 +26,9 @@
 
   background: #374151;
 }
+.image {
+  width: 280px;
+}
 
 .imageWork {
   height: 192px;
@@ -77,13 +80,14 @@ h3 {
   align-self: stretch;
 }
 
-.project {
+.projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
   align-self: stretch;
+  max-width: 360px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -98,5 +102,8 @@ h3 {
     display: flex;
     align-content: center;
     justify-content: center;
+  }
+  .projects {
+    max-width: 800px;
   }
 }

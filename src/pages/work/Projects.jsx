@@ -3,7 +3,7 @@ import { PROJECTS } from "./work.constants";
 
 export default function Projects() {
   return (
-    <div className="project">
+    <div className="projects">
       {PROJECTS.map(({ title, description, image, technologies }) => {
         return (
           <Project
